@@ -1,0 +1,51 @@
+ 
+.imageContainer img{
+min-width: 350px !important;
+    width: 400px;
+        border: 2px solid #ccc;
+    border-radius: 4px
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 100vh;
+    padding: 20px 60px 20px 60px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    max-width: 380px;
+
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin-top: 15px;
+}
+.btn-container button{
+    background: #d91e18;
+    width: 200px;
+    color: #fff;
+    height: 60px;
+    font-size: 18px;
+    border: 1px solid #d91e18,
+}
+
+.btn-container .btn-back{
+    background: none;
+    width: 200px;
+    color: #fff;
+    height: 60px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    margin-left: 10px
+}
